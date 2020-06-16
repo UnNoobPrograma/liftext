@@ -1,5 +1,9 @@
 #
 
+## Inspiration
+
+https://twitter.com/Twitch/status/1237174754118905856
+
 ## TODO
 
 - [ ] exponer cuando termina de animar
