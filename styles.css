@@ -1,0 +1,22 @@
+body {
+  background-color: #e67e22;
+  color: white;
+  font-size: 4em;
+}
+
+.word {
+  display: inline-block;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(50%);
+  transition: transform 300ms cubic-bezier(0.24, 0.37, 0.55, 0.93);
+}
+
+.word[data-state="animated"],
+.word[data-state="showed"] {
+  opacity: 1;
+}
+
+.word[data-state="animated"] {
+  transform: translateY(0);
+}
