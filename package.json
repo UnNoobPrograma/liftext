@@ -6,6 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Link Strifer",
+    "email": "linkstrifer@outlook.com",
+    "url": "http://strifer.link/"
+  },
+  "contributors": [
+    {
+      "name": "Gara501",
+      "url": "https://github.com/gara501"
+    }
+  ],
+  "license": "MIT"
 }
