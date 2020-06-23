@@ -1,4 +1,4 @@
-class Animation {
+export default class Animation {
   constructor(element) {
     this.element = element;
 
@@ -100,19 +100,3 @@ class Animation {
     this.timeouts.push(timeout);
   }
 }
-
-const paragraphs = [...document.querySelectorAll("p")];
-
-const animations = paragraphs.map((paragraph) => new Animation(paragraph));
-
-window.animate.addEventListener("click", () => {
-  animations.map((animation) => animation.play());
-});
-
-window.reset.addEventListener("click", () => {
-  animations.map((animation) => animation.reset());
-});
-
-window.pause.addEventListener("click", () => {
-  animations.map((animation) => animation.pause());
-});
