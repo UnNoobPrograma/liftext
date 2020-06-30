@@ -41,7 +41,7 @@ This will start the animation when the `button#play` is clicked.
 
 ## TODO
 
-- [ ] publicar en npm
+- [x] publicar en npm
 - [ ] exponer cuando termina de animar
 - [ ] animar elementos secuencialmente (animar el siguiente elemento cuando termine el anterior solo pasando una lista)
 - [ ] animaciones personalizadas
