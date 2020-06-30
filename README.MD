@@ -8,6 +8,7 @@ A small animation library inspired by this [tweet](https://twitter.com/Twitch/st
   - [Installation](#installation)
   - [How to use it](#how-to-use-it)
   - [TODO](#todo)
+  - [Issues](#issues)
 
 <!-- /TOC -->
 
@@ -41,9 +42,13 @@ This will start the animation when the `button#play` is clicked.
 
 ## TODO
 
-- [x] publicar en npm
-- [ ] exponer cuando termina de animar
-- [ ] animar elementos secuencialmente (animar el siguiente elemento cuando termine el anterior solo pasando una lista)
 - [ ] animaciones personalizadas
-- [x] ponerle un mejor nombre (i.e: liftext)
 - [ ] unit testing?
+- [ ] agregar documentación de AnimationList
+- [ ] agregar documentación de onAnimationEnd callback
+- [ ] pagina de ejemplos (playground)
+
+## Issues
+
+- [ ] callback hell, Animation.play solo agrega callbacks, hay que limpiarlos después de lanzárlos
+- [ ] AnimationList pause no funciona justo al final de la transición
