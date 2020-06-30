@@ -1,10 +1,10 @@
-# Exhiban
+# Text Animation JS
 
 A small animation library inspired by this [tweet](https://twitter.com/Twitch/status/1237174754118905856).
 
 <!-- TOC -->
 
-- [Exhiban](#exhiban)
+- [Text Animation JS](#text-animation-js)
   - [Installation](#installation)
   - [How to use it](#how-to-use-it)
   - [TODO](#todo)
@@ -13,14 +13,14 @@ A small animation library inspired by this [tweet](https://twitter.com/Twitch/st
 
 ## Installation
 
-Just paste `npm install exhiban` in the console.
+Just paste `npm install text-animation-js` in the console.
 
 ## How to use it
 
 Just import the component and pass a HTML element to it.
 
 ```js
-import Animation from "exhiban";
+import Animation from "text-animation-js";
 
 const animation = new Animation(document.querySelector("p"));
 ```
@@ -45,5 +45,5 @@ This will start the animation when the `button#play` is clicked.
 - [ ] exponer cuando termina de animar
 - [ ] animar elementos secuencialmente (animar el siguiente elemento cuando termine el anterior solo pasando una lista)
 - [ ] animaciones personalizadas
-- [ ] ponerle un mejor nombre (i.e: liftext)
+- [x] ponerle un mejor nombre (i.e: liftext)
 - [ ] unit testing?
