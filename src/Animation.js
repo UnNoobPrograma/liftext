@@ -18,6 +18,8 @@ export default class Animation {
     this.timeout = this.timeout.bind(this);
 
     this.init();
+
+    return this;
   }
 
   init() {
