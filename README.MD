@@ -40,6 +40,12 @@ const animation = new Animation(document.querySelector("p"));
 
 Call `new Animation()` will return an animation instance.
 
+Also you need to import the css styles:
+
+```js
+import "text-animation-js/styles.css";
+```
+
 ## Animation
 
 ### Configuration
