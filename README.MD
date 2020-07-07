@@ -154,7 +154,3 @@ You can find some demos [here](https://codesandbox.io/s/elastic-murdock-ycc0q).
 - [ ] animaciones personalizadas
 - [ ] unit testing?
 
-## Issues
-
-- [ ] callback hell, Animation.play solo agrega callbacks, hay que limpiarlos después de lanzárlos
-- [ ] AnimationList pause no funciona justo al final de la transición
