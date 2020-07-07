@@ -19,6 +19,7 @@ A small animation library inspired by this [tweet](https://twitter.com/Twitch/st
       - [Play](#play)
       - [Pause](#pause)
       - [Reset](#reset)
+  - [Demos](#demos)
   - [TODO](#todo)
   - [Issues](#issues)
 
@@ -144,10 +145,13 @@ document.querySelector("button").addEventListener("click", () => {
 });
 ```
 
+## Demos
+
+You can find some demos [here](https://codesandbox.io/s/elastic-murdock-ycc0q).
+
 ## TODO
 
 - [ ] animaciones personalizadas
-- [ ] pagina de ejemplos (playground)
 - [ ] unit testing?
 
 ## Issues
